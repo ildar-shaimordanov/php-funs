@@ -1,0 +1,18 @@
+#Thumbnails: Теория и практика создания миниатюрных изображений
+
+= Introduction =
+
+Internet allows users to publish their images made using by computer or digital cameras. Usually these works are made on high level large files (in size and weight). Recent technics allows to create reduced copies. 
+
+These copies are named as preview or thumbnails. there are several methods to create thumbnails. This article will show them and describe how to create them. 
+
+= Tips, notes, and agreements =
+
+All methods of the thumbnail creation suggest some preceeding arithmetical operations to estimate the initial point and the size of the copied area of the original image. Across this article the following notations will be used (in pixels):
+  * `W`, `H` - width and height of the original image; 
+  * `X`, `Y` - coordinates of the initial point of copying (ltft-upper corner; 
+  * `width`, `height` - width and height of the target image thumbnail); 
+  * `R`, `ratio` - relations of the less side to the greater side in the rectangles of the original and preview images; 
+прямоугольников оригинала и миниатюры, соответственно;
+  * `Ww` - relation of the width of the greater rectangle to the width of the less rectangle; 
+  * `Hh` - ibid, but for heights. 
